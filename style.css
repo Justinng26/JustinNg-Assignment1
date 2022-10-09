@@ -99,6 +99,10 @@ nav a{
 
 /* About section */
 
+.about{
+    background-color: #fcdde2;
+}
+
 .about h2{
     text-align: center;
     margin-bottom: 70px;
@@ -113,6 +117,25 @@ nav a{
 
 .galleryFlex li{
     width: calc((100% /3) - 20px);
-    margin: 0 10px 20 px;
-    padding: 15px;
+    margin: 0 10px 20px;
+    padding: 10px;
+}
+
+/* About */
+
+.aboutFlex{
+    display: flex;
+    margin-top: 70px;
+}
+
+.imgContainer, .textContainer{
+    width: 50%;
+}
+
+.imgContainer{
+    margin-left: 20px;
+}
+
+.textContainer{
+    margin-right: 200px;
 }

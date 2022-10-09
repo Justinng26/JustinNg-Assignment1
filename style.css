@@ -47,6 +47,13 @@ h1, h2, h3, h4 {
     color: #1d81cc;
 }
 
+
+
+p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+}
+
 /* header styles */
 
 header {
@@ -54,7 +61,7 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    padding: 50px 0;
+    /* padding: 50px 0; */
 }
 
 .headerFlex {
@@ -62,9 +69,6 @@ header {
     justify-content: space-between;
 }
 
-.header{
-    display: inline-block;
-}
 
 .header p {
     font-family: 'barlow', sans-serif;
@@ -104,10 +108,14 @@ nav a{
 }
 
 .about h2{
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 70px;
 }
-
+h2{
+    
+    font-size: 42px;
+    text-align: center;
+}
 /* gallery */
 
 .galleryFlex{
@@ -136,6 +144,28 @@ nav a{
     margin-left: 20px;
 }
 
-.textContainer{
-    margin-right: 200px;
+.textContainer p{
+    margin: 25px 0;
 }
+
+/* blog styles */
+
+background{
+    color: #f0f5ff;
+}
+
+h3{
+    font-size: 42px;
+}
+
+.blogTop, .blogBottom {
+    display: flex;
+}
+
+.blogConatainer1, .blogImg1, .blogImg2, .blogContainer2 {
+    width: 50%;
+}
+
+
+
+

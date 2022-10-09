@@ -41,3 +41,41 @@ img {
 section{
     padding: 100px 0;
 }
+
+h1, h2, h3, h4 {
+    font-family: 'Emblema One', cursive; 
+    color: #1d81cc;
+}
+
+/* header styles */
+
+header {
+    background-image: url('./designAssets/assets/header-alt.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+
+.headerFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    display: inline-block;
+}
+
+.header p{
+    font: 'barlow', sans-serif;
+}
+
+/* h1 styles */
+
+h1 {
+    font-size: 104.6px;
+}
+
+h1 span {
+    display: block;
+}

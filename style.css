@@ -204,3 +204,40 @@ h3{
 
 /* footer styles */
 
+.contact{
+    background-color: #f0f5ff;
+}
+
+.contactFlex {
+    display: flex;
+    
+}
+
+.updated, .label, .footerNav{
+     flex-direction: column; 
+}
+
+.updated{
+    width: 50%;
+}
+
+.footerNav{
+
+}
+
+.footerNav a{
+    font-family: 'Emblema One', cursive;
+    font-size: 1.25rem;
+}
+
+/* actual footer */
+
+footer{
+    background-color: #042259;
+}
+
+footer p{
+    text-align: center;
+    color: #f0f5ff;
+    padding: 10px 0;
+}

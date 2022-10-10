@@ -186,4 +186,21 @@ h3{
     background-color: #fcdde2;
 }
 
+/* links styling */
+
+.bodyLinks{
+    background-color: #fcdde2;
+}
+
+
+.links a{
+    font-family: 'Emblema One', cursive;
+    font-size: 31.2px;
+}
+
+.links ul{
+    justify-content: space-evenly;
+}
+
+/* footer styles */
 

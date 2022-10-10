@@ -50,9 +50,18 @@ h1, h2, h3, h4 {
 
 
 p{
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow', sans-serif; 
     font-size: 1rem;
 }
+
+.button {
+    font-family: 'Emblema One', cursive;
+    font-size: 1rem;  
+    display: inline-block;
+    padding: 10px;
+}
+
+
 
 /* header styles */
 
@@ -61,7 +70,7 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    /* padding: 50px 0; */
+    
 }
 
 .headerFlex {
@@ -148,11 +157,17 @@ h2{
     margin: 25px 0;
 }
 
+.button {
+    color: white; 
+     background-color: #042259; 
+}
 /* blog styles */
 
-background{
-    color: #f0f5ff;
-}
+.blog{
+    background-color: #f0f5ff;
+} 
+    
+
 
 h3{
     font-size: 42px;
@@ -163,9 +178,12 @@ h3{
 }
 
 .blogConatainer1, .blogImg1, .blogImg2, .blogContainer2 {
-    width: 50%;
+    width: 100%;
 }
 
-
+.button{
+    color: #042259;
+    background-color: #fcdde2;
+}
 
 

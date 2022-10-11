@@ -259,7 +259,10 @@ footer p{
 @media(max-width: 454px){
 
     header{
+        width: 100%;
         height: 50vh;
+        background-size: cover;
+        background-position: center;
 
     }
     nav{
@@ -267,10 +270,26 @@ footer p{
     }
 
     h1{
-        font-size: 2rem
+        font-size: 2.5rem
     }
 
     .header p{
         font-size: 1rem;
     }
+
+    /* About section */
+
+    h2{
+        font-size: 1.5rem;
+    }
+    
+    .about{
+        flex-direction: column;
+    }
+    
+    .imgContainer{
+        display: inline-block;
+        width: 100%;
+    }
+    
 }

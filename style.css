@@ -74,8 +74,8 @@ header {
 }
 
 .headerFlex {
-    display: flex;
-    justify-content: space-between;
+    display: flex; 
+    justify-content: space-between; 
 }
 
 
@@ -103,7 +103,7 @@ nav ul{
 }
 
 nav a{
-    display:inline-block;
+    display:inline-block; 
     color: #042259;
     font-size: 18px;
     padding: 0 15px;
@@ -157,7 +157,11 @@ h2{
     margin: 25px 0;
 }
 
-.button {
+.button1 {
+    font-family: 'Emblema One', cursive;
+    font-size: 1rem;  
+    display: inline-block;
+    padding: 10px;
     color: white; 
      background-color: #042259; 
 }
@@ -196,6 +200,7 @@ h3{
 .links a{
     font-family: 'Emblema One', cursive;
     font-size: 31.2px;
+    color: #1d81cc;
 }
 
 .links ul{
@@ -213,7 +218,7 @@ h3{
     
 }
 
-.updated, .label, .footerNav{
+.updated, .label {
      flex-direction: column; 
 }
 
@@ -221,10 +226,17 @@ h3{
     width: 50%;
 }
 
-.footerNav{
-
+input{
+    padding: 8px;
 }
 
+h4{
+    padding: 10px 0;
+}
+
+.updated p{
+    padding-bottom: 10px;
+}
 .footerNav a{
     font-family: 'Emblema One', cursive;
     font-size: 1.25rem;

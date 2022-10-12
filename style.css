@@ -204,6 +204,7 @@ h3{
 
 .links ul{
     justify-content: space-evenly;
+    
 }
 
 /* footer styles */
@@ -262,11 +263,11 @@ footer p{
     /* Header Section */
     header{
         width: 100%;
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-
+        height: 50vh;
+        background-size: cover; 
+        background-position:center;
     }
+
     nav{
         display: none;
     }
@@ -306,6 +307,22 @@ footer p{
     }
 
     /* Blog section */
-
     
+    .blogFlex{
+        flex-direction: column;
+    }
+ 
+    
+
+    /* Footer */
+
+    .contactFlex{
+        flex-direction: column;
+    }
+
+    .updated{
+         margin: 0 auto; 
+    }
+
+
 }

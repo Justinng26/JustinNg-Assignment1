@@ -116,13 +116,9 @@ nav a{
     background-color: #fcdde2;
 }
 
-.about h2{
-    /* text-align: center; */
-    margin-bottom: 70px;
-}
 h2{
-    
-    font-size: 42px;
+    margin-bottom: 70px;
+     font-size: 42px; 
     text-align: center;
 }
 /* gallery */
@@ -181,8 +177,11 @@ h3{
     display: flex;
 }
 
-.blogConatainer1, .blogImg1, .blogImg2, .blogContainer2 {
-    width: 100%;
+.blogConatainer1, .blogImg1, .blogImg2, .blogContainer2 { width: 100%;
+}
+
+.blogContainer1, .blogContainer2{
+    margin: 50px 100px;
 }
 
 .button{
@@ -216,10 +215,11 @@ h3{
 .contactFlex {
     display: flex;
     
+    
 }
 
 .updated, .label {
-     flex-direction: column; 
+      flex-direction: column;  
 }
 
 .updated{
@@ -240,6 +240,7 @@ h4{
 .footerNav a{
     font-family: 'Emblema One', cursive;
     font-size: 1.25rem;
+    flex-direction: column;
 }
 
 /* actual footer */
@@ -258,9 +259,10 @@ footer p{
 
 @media(max-width: 454px){
 
+    /* Header Section */
     header{
         width: 100%;
-        height: 50vh;
+        height: 100vh;
         background-size: cover;
         background-position: center;
 
@@ -281,15 +283,29 @@ footer p{
 
     h2{
         font-size: 1.5rem;
+        padding-top: 30px;
     }
     
-    .about{
+    .aboutFlex{
         flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imgContainer, .textContainer{
+        width: 95%;
     }
     
     .imgContainer{
-        display: inline-block;
-        width: 100%;
+        margin: 0 0 0 60px;
     }
+
+    .textContainer p{
+        text-align:left;
+        margin-left:30px;
+    }
+
+    /* Blog section */
+
     
 }
